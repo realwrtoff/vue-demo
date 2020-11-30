@@ -1,0 +1,197 @@
+@charset "utf-8";
+
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 1280px;
+    min-height: 630px;
+    font-family: "微软雅黑";
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    -moz-background-size:100% 100%;
+    background-size:100% 100%;
+}
+.login-top{
+    height: 100px;
+}
+.login-top .top-center{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 55px;
+}
+.login-top .top-center img{
+    float: left;
+}
+.login-top .top-center .top-right{
+    float: right;
+    padding-top: 13px;
+    margin-right: 70px;
+    color: #017dc7;
+}
+.login-top .top-center .top-right a{
+    /*color: #383838;*/
+    color: #017dc7;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.login-top .top-center .top-right a:hover{
+    /*color: #017dc7;*/
+    text-decoration: underline;
+}
+.login-content{
+    height: 600px;
+    background: url("../../images/login/login-bg.png") top center no-repeat;
+}
+.login-content .content-center{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 140px;
+}
+.login-content .login-box{
+    width: 340px;
+    height: 315px;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    float: right;
+    margin-right: 80px;
+}
+.login-box h3{
+    padding: 30px 0 0 15px;
+    margin: 0 0 24px;
+    height: 25px;
+    border:1px solid #dcdcdc;
+
+    color: #0888e1;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.login-box .input{
+    width: 298px;
+    height: 42px;
+    border:1px solid #ededed;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 0;
+    margin: 0 auto 25px;
+    text-align: left;
+    color: #333333;
+    font-size: 14px;
+    clear: both;
+}
+.login-box .input-focus{
+    border-color: #017bc4;
+}
+.login-box .input span{
+    float: left;
+    width: 33px;
+    height: 42px;
+    display: inline-block;
+}
+.login-box .input .icon-user{
+    background:url("../../images/login/user.png") center center no-repeat;
+}
+.login-box .input .icon-password{
+    background:url("../../images/login/password.png") center center no-repeat;
+}
+.login-box .input input{
+    float: left;
+    width: 260px;
+    height:42px;
+    border: none;
+    outline: 0;
+    background-color: transparent;
+    line-height: 40px;
+}
+.login-box .input .msg{
+    display: none;
+    color: #f74444;
+    font-size: 12px;
+    text-align: right;
+    line-height: 20px;
+}
+.login-box .input.error .msg{
+    display: block;
+}
+.login-box .btn{
+    display: block;
+    width: 300px;
+    height: 44px;
+    margin: 0 auto 12px;
+    background-color: #017bc4;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 15px;
+    cursor: pointer;
+}
+.login-box .btn:hover{
+  background-color: #0069a4;
+}
+.login-box .forget-password{
+    height: 12px;
+    font-size: 12px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+}
+.login-box .forget-password a{
+    float: right;
+    color: #ff6825;
+    text-decoration: none;
+}
+.login-box .forget-password a:hover{
+    text-decoration: underline;
+}
+.login-box .register{
+    height: 12px;
+    font-size: 12px;
+    padding: 0 20px 0 20px;
+}
+.login-box .register span{
+    float: left;
+    color: #666666;
+}
+.login-box .register a{
+    float: right;
+    color: #007bc1;
+    text-decoration: none;
+}
+.login-box .register a:hover{
+    text-decoration: underline;
+}
+.login-bottom p{
+    color: #94929f;
+    font-size: 12px;
+    text-align: center;
+    line-height: 24px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #b4b4b4;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #b4b4b4;
+}
+input:-ms-input-placeholder{
+    color: #b4b4b4;
+}
+input::-webkit-input-placeholder{
+    color: #b4b4b4;
+}
