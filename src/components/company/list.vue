@@ -1,5 +1,5 @@
 <template>
-  <div class="main advertiser">
+  <div class="main company">
     <div class="main-search">
       <div class="search-item">
         <span class="item-left">省份</span>

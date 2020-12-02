@@ -5,7 +5,7 @@ import { getCookie } from '@/config/util'
 
 //创建axios实例
 const ajax = axios.create({
-    baseURL: "http://127.0.0.1:8888/api/",    // api的base_url
+    baseURL: "http://127.0.0.1:28080/api/",    // api的base_url
     timeout: 5000                                 // 请求超时时间
 });
 

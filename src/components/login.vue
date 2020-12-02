@@ -74,14 +74,16 @@ export default {
         username: _this.username,
         password: _this.password
       };
+
       //数据提交
       api
         .login(loginForm)
         .then(data => {
           this.loading = false;
+          console.log(data);
           setCookie("token", data.token);
-          setCookie("username", _this.loginForm.username);
-          _this.$router.push({ path: _this.redirect || "/company" });
+          setCookie("username", loginForm.username);
+          _this.$router.push({ path: "/company" });
         })
         .catch(err => {
           this.loading = false;
